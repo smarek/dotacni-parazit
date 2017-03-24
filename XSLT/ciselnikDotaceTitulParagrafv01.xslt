@@ -32,7 +32,7 @@
 		<xsl:value-of select="@rdf:about"/>
 	</xsl:attribute>
 	<xsl:attribute name="rozpoctovaSkladbaParagraf">
-		<xsl:value-of select="ns7:rozpoctovaSkladbaParagraf"/>
+		<xsl:value-of select="ns7:rozpoctovaSkladbaParagraf/@rdf:resource"/>
 	</xsl:attribute>
 	<xsl:attribute name="zaznamPlatnostDatum">
 		<xsl:value-of select="ns7:zaznamPlatnostDatum"/>

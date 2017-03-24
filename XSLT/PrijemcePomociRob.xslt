@@ -32,10 +32,10 @@
 		<xsl:value-of select="@rdf:about"/>
 	</xsl:attribute>
 	<xsl:attribute name="sameAsAres">
-		<xsl:value-of select="ns18:sameAs[contains(@rdf:resource, 'Osoba')]/@rdf:resource"/>
+		<xsl:value-of select="ns18:sameAs[contains(@rdf:resource, 'EkonomikaSubjekt')]/@rdf:resource"/>
 	</xsl:attribute>
 	<xsl:attribute name="sameAsRob">
-		<xsl:value-of select="ns18:sameAs[contains(@rdf:resource, 'EkonomikaSubjekt')]/@rdf:resource"/>
+		<xsl:value-of select="ns18:sameAs[contains(@rdf:resource, 'Osoba')]/@rdf:resource"/>
 	</xsl:attribute>
     </PrijemcePomociRob>
 </xsl:template>

@@ -27,7 +27,7 @@
 
 <!-- PARSING NEEDED CONTENT -->
 <xsl:template match="ns7:Adresa">
-    <AdresaSidloTrvaleBydliste>
+    <AdresaTrvaleBydliste>
 	<xsl:attribute name="about">
 		<xsl:value-of select="@rdf:about"/>
 	</xsl:attribute>
@@ -58,7 +58,7 @@
 	<xsl:attribute name="adresaKvalifikatorKod">
 		<xsl:value-of select="ns6:adresaKvalifikatorKod"/>
 	</xsl:attribute>
-    </AdresaSidloTrvaleBydliste>
+    </AdresaTrvaleBydliste>
 </xsl:template>
 
 <!-- REMOVE UNNEEDED NODES -->
